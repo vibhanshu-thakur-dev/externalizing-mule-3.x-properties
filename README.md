@@ -1,0 +1,1 @@
+# externalizing-mule-3.x-properties
