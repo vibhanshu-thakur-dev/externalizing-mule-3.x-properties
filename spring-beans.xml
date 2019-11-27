@@ -1,0 +1,11 @@
+<spring:beans>
+		<spring:bean id="propertyLoader" class="com.integralzone.mule.properties.ExternalProperties">
+			<spring:property name="locations">
+				<spring:list>
+					<spring:value>common.properties</spring:value>
+					<spring:value>error_codes.properties</spring:value>
+					<spring:value>logger_config.properties</spring:value>
+				</spring:list>
+			</spring:property>
+		</spring:bean>
+	</spring:beans>
